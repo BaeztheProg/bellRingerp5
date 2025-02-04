@@ -1,6 +1,6 @@
 import string
-message = input("Message to encrypt: ")
-shift = int(input('What is the shift?'))
+message = "Mr.Baez"
+shift = 13
 
 lower = list(string.ascii_lowercase)
 upper = list(string.ascii_uppercase)
