@@ -18,7 +18,7 @@ def encrypt_caesar(message, shift):
           if e == letter:
               encrypted += special[(i+shift)%len(special)]
 
-message = input("Message to encrypt: ")
-shift = int(input('What is the shift?'))
+message = 'Mr. Baez'
+shift = 13
 
 print(encrypt_caesar(message, shift))
